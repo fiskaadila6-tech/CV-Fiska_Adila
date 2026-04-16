@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Online - Fiska Adila</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <img src="assets/style/image/Foto.jpeg"
+          alt="Fiska Adila"
+          class="profile-img"
+        />
+        <h1 class="name">Fiska Adila</h1>
+        <div class="contact">
+          <a href="mailto:fiskaadila6@gmail.com">📧 fiskaadila6@gmail.com</a>
+          <a href="tel:085260684266">📱 085260684266</a>
+          <a href="https://instagram.com/adl.ka" target="_blank">📸 @adl.ka</a>
+        </div>
+      </aside>
+      <main class="main">
+        <section class="section">
+          <h2>Pendidikan</h2>
+          <div class="education-item">
+            <div class="edu-title">SMA MAN 1 PIDIE</div>
+            <div class="edu-period">2019 - 2023 (Jurusan IPA)</div>
+          </div>
+          <div class="education-item">
+            <div class="edu-title">Universitas Islam Negeri Ar-Raniry</div>
+            <div class="edu-period">
+              2023 - Sekarang (Sains dan Teknologi, Teknologi Informasi)
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <h2>Pengalaman</h2>
+          <div class="experience-item">
+            <div class="edu-title">OSIS (Organisasi Siswa Intra Sekolah)</div>
+            <div class="edu-period">
+              Pengalaman kepemimpinan dan organisasi di sekolah
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <h2>Keterampilan</h2>
+          <div class="skills">
+            <div class="skill-item">
+              <span class="skill-label">Manajemen Basis Data (MySQL)</span>
+              <div class="progress-container">
+                <div class="progress-bar" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="hobi-minat">
+              <div><strong>Hobi:</strong><br />Membaca, Badminton</div>
+              <div><strong>Minat:</strong><br />Riset dan Inovasi AI</div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script>
+      // Animasi progress bar on load
+      document.addEventListener("DOMContentLoaded", () => {
+        const bars = document.querySelectorAll(".progress-bar");
+        bars.forEach((bar) => {
+          bar.style.width = bar.dataset.width;
+        });
+      });
+    </script>
+  </body>
+</html>
